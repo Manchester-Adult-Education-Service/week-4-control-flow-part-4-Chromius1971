@@ -27,7 +27,12 @@
 # 3. Print a message if the condition is True.
 
 # Write your code below:
-
+print()
+print("Step 1")
+print()
+user_Num = int(input("Choose a whole number "))
+if user_Num %2 ==0:
+    print("The number is even")
 
 # Step 2: Add else
 # ----------------
@@ -44,7 +49,15 @@
 # 2. Print a different message if the number does not meet your condition.
 
 # Write your code below:
-
+print()
+print("Step 2")
+print()
+user_Num = int(input("Choose a whole number "))
+if user_Num %2 ==0:
+    print("The number is even")
+else:
+    print("The number is odd")    
+print()
 
 # Step 3: Multiple conditions
 # ---------------------------
@@ -64,7 +77,16 @@
 # 3. Test your program with different inputs to see all possible messages.
 
 # Write your code below:
-
+print()
+print("Step 3")
+print()
+user_Num = int(input("Choose a whole number "))
+if user_Num %2 ==0:
+    print("The number is even")
+    elif 
+else:
+    print("The number is odd")    
+print()
 
 # -------------------------------------------
 # Submitting Your Work
