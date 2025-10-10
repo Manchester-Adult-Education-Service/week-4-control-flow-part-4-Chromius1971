@@ -83,7 +83,8 @@ print()
 user_Num = int(input("Choose a whole number "))
 if user_Num %2 ==0:
     print("The number is even")
-    elif 
+elif user_Num <0:
+        print("The number is negative")
 else:
     print("The number is odd")    
 print()
@@ -109,6 +110,21 @@ print()
 # Ask the user for a number and a word.
 # Use conditions to print a message only if the number is greater than a value
 # AND the word matches a stored word.
+print("Extension Activity 1")
+print()
+attempts = 0
+max_attempts = 5
+stored_word = "Lion"
+while attempts < max_attempts:
+    user_word = (input("I'm an animal that lives in a 'pride' What animal am I? "))
+    user_Num = int(input("Guess my number between 1 and 100  "))
+    attempts += 1
+    if attempts == max_attempts:
+        print("Too bad the answer was Lion and the number was over 50!")
+    if user_word == stored_word and user_Num >50:
+        print("Correct it is a lion and the number was over 50!")
+        break
+print()
 
 # Extension 2:
 # Ask the user for a number.
